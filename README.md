@@ -43,10 +43,11 @@ Once it is imported, you can use `<img></img>`:
 
 ```xml
 <!-- app.component.html -->
- <img [src]="url" pan pinch tap doubletap swipe transitionactive="active" 
+ <img [src]="url" pan pinch tap press doubletap swipe transitionactive="active" 
  (panChange)="panChange($event)"
  (pinchChange)="pinchChange($event)"
  (tapChange)="tapChange($event)"
+ (pressChange)="pressChange($event)"
  (doubletapChange)="doubletapChange($event)"
  (swipeChange)="swipeChange($event)"
  ></img>
