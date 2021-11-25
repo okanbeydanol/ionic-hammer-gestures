@@ -1,6 +1,7 @@
 # ionic-hammer-gestures
 A simple international telephone number input. Allows you to create a phone number field with country dropdown. 
 
+![Plugin preview](https://raw.githubusercontent.com/okanbeydanol/ionic-hammer-gestures/master/demoApp/video/hammer-gestures.gif)
 
 ## Installation
 
