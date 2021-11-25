@@ -1,11 +1,5 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  <div style="width: 600px;height: 800px;background: black;" pan pinch doubletap transitionactive="active"></div>
+<ion-content>
+  <div class="pinch-zoom-container">
+    <img pan pinch doubletap #image transitionactive="true" [src]="src">
+  </div>
 </ion-content>

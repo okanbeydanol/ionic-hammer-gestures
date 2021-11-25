@@ -1,3 +1,35 @@
-page-home {
+ion-content {
+  --overflow: hidden;
 
+  .scroll-content {
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    margin-top: 0px !important;
+  }
+
+  div {
+    width: 100%;
+    height: 100%;
+    background: black;
+  }
+}
+
+.scroll-content {
+  background: #1e1e1e;
+}
+
+.pinch-zoom-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  background: black;
+}
+
+.pinch-zoom-image {
+  width: 100%;
+  transform: translate(0px, 0px);
 }
